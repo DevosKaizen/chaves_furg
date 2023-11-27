@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"LOJAEMGO/models"
+	"chaves_furg/models"
 	"log"
 	"net/http"
 	"strconv"

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"LOJAEMGO/controllers"
+	"chaves_furg/controllers"
 	"net/http"
 )
 

@@ -1,7 +1,7 @@
 package models
 
 import (
-	"LOJAEMGO/db"
+	"chaves_furg/db"
 )
 
 type Salas struct {
@@ -64,7 +64,7 @@ func DeletaProduto(id string) {
 func EditaProduto(id string) Salas {
 	db := db.ConectaCombancoDeDados()
 
-	produtoDoBanco, err := db.Query("select *from salas where id=$1", id)
+	produtoDoBanco, err := db.Query("select *from salas_c3 where id=$1", id)
 	if err != nil {
 		panic(err.Error())
 	}

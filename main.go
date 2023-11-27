@@ -1,7 +1,7 @@
 package main
 
 import (
-	"LOJAEMGO/routes"
+	"chaves_furg/routes"
 	"net/http"
 
 	_ "github.com/lib/pq"
